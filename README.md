@@ -41,7 +41,7 @@ There are some advantages and disadvantages of WGAN-GP:
 **Disadvantages:**
 Longer to train
 
-# W-Loss vs BCE Loss
+### W-Loss vs BCE Loss
 
 **W-Loss** : Critic output any number\
 W-Loss helps with mode collapse and vanishing gradient problems
@@ -63,14 +63,13 @@ In this way, improving such as faster training, stable training, and better qual
  2. Targeted Image Generation:
  we can use class labels for targeted generated images of a given type.
 
-# Datasets\
+# Datasets
 ## 1- Anime Face Dataset
 
-**Tensor**
-We will represent the data using tensors. Tensors are a generalization of matrices: for example, a stack of three matrices with the amounts of red, green, and blue at different locations in a 64 x 64 pixel image is a tensor with the shape 3 x 64 x 64.\
-Tensors are easy to manipulate and supported by PyTorch, the machine learning library you will be using. Feel free to explore them more, but you can imagine these as multi-dimensional matrices or vectors!
+This dataset including  63,632 "high-quality" images is used for generating anime faces using GAN model.
 
 **Goal**
+
 In this project, using definition and training a DCGAN, we are going to generate Anime fake faces as real images.\
 The main objective here is that make a generator network to generate new images that look like as real.
 
