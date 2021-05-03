@@ -103,20 +103,14 @@ disc_real_pred = False
 for epoch in range(n_epochs):
     # Dataloader will return the batches and labels
     for real, labels in tqdm(dataloader):
-        print(type(real))
-        print(type(labels))
-        print(real.shape)
         current_batch_size = len(real)
-        print(current_batch_size)
         # Flatten the batch of real images
         real = real.to(device)
         labels = labels.to(device)
 
         oh_labels = one_hot_labels(labels.to(device), num_classes)
         oh_labels_image = oh_labels[:, :, None, None]
-        print(oh_labels_image.shape)
         oh_labels_image = oh_labels_image.repeat(1, 1, image_shape[1], image_shape[2])
-        print(oh_labels_image.shape)
 
         #=================================
         #     Train Discriminator
@@ -126,8 +120,6 @@ for epoch in range(n_epochs):
 
         # Generate fake images
         fake_noise = torch.randn(current_batch_size, z_dim, device=device)
-        print(fake_noise.shape)
-        print(oh_labels.shape)
         # Now, we need to combine the noise vectors and the one-hot labels for the generator
         # Then, generate the conditioned fake images
         noise_and_labels = vectors_embedding(fake_noise, oh_labels)
