@@ -74,8 +74,8 @@ In this project, using definition and training a DCGAN, we are going to generate
 The main objective here is that make a generator network to generate new images that look like as real.
 
 ## 2- Dog dataset
-Generative Dog Images is based on the Stanford Dogs Dataset. The folder includes:
-1- all-dogs.zip - All dog images contained in the Stanford Dogs Dataset 
+Generative Dog Images is based on the Stanford Dogs Dataset. The folder includes:\
+1- all-dogs.zip - All dog images contained in the Stanford Dogs Dataset\ 
 2- Annotations.zip - Class labels, Bounding boxes
 
 # Reference
