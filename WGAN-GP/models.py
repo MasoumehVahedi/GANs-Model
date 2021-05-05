@@ -28,6 +28,7 @@ class Generator(nn.Module):
             self.make_gen_block(hidden_dim * 4, hidden_dim * 2, kernel_size=4, stride=2, padding=1),         # out: 128 x 16 x 16
             self.make_gen_block(hidden_dim * 2, hidden_dim, kernel_size=4, stride=2, padding=1),             # out: 64 x 32 x 32
             # Final layer
+            # The second parameter should be the number of image channel
             nn.ConvTranspose2d(hidden_dim, im_chan, kernel_size=4, stride=2, padding=1),
             nn.Tanh()
         )
@@ -86,7 +87,9 @@ class Critic(nn.Module):
             self.make_disc_block(hidden_dim * 2, hidden_dim * 4,  kernel_size=4, stride=2, padding=1),   # out: 256 x 8 x 8
             self.make_disc_block(hidden_dim * 4, hidden_dim * 8,  kernel_size=4, stride=2, padding=1),   # out: 512 x 4 x 4
             # Final layer
-            nn.Conv2d(hidden_dim * 8, im_chan, kernel_size=4, stride=2, padding=0)                       # out: 1 x 1 x 1
+            # The second parameter should be single channel (1) because we want to represent one value which
+            # the images is fake or real
+            nn.Conv2d(hidden_dim * 8, 1, kernel_size=4, stride=2, padding=0)                       # out: 1 x 1 x 1
         )
 
     # Build the neural block
