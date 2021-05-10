@@ -70,7 +70,7 @@ This dataset including  63,632 "high-quality" images is used for generating anim
 
 **Goal**
 
-In this project, using definition and training a DCGAN, we are going to generate Anime fake faces as real images.\
+In this project, using definition and training a DCGAN, we are going to generate Anime fake faces as real images.
 The main objective here is that make a generator network to generate new images that look like as real.
 
 ## 2- Dog dataset
