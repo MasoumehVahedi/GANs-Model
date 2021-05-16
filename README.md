@@ -66,7 +66,7 @@ In this way, improving such as faster training, stable training, and better qual
 # Datasets
 ## 1- Anime Face Dataset
 
-This dataset including  63,632 "high-quality" images is used for generating anime faces using GAN model.
+The Anim Face dataset including  63,632 "high-quality" images is used for generating anime faces using GAN model.
 
 **Goal**
 
