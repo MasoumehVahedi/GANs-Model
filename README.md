@@ -1,6 +1,6 @@
 # Generative Adversarial Network
 This project comes from Kaggle Competitons called Generative-Dog-Images and Anime Face Dataset. 
-There have implemented three types of GANs named DCGAN, WGAN-GP, and CGAN. The architectures of these are briefly introduced in the following.
+Three types of GANs were implemented including DCGAN, WGAN-GP, and CGAN. The architectures of these are briefly introduced in the following.
 
 ## 1- Deep Convolutional Generative Adversarial Network architecture (DCGAN)
 
