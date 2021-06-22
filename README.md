@@ -4,7 +4,7 @@ Three types of GANs were implemented including DCGAN, WGAN-GP, and CGAN. The arc
 
 ## 1- Deep Convolutional Generative Adversarial Network architecture (DCGAN)
 
-In this project, we implemented DCGAN architecture using PyTorch deep learning framework.
+In this task, we implemented DCGAN architecture using PyTorch deep learning framework.
 
 ### DCGAN Model Architecture
 
