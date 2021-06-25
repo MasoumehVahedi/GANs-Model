@@ -1,5 +1,22 @@
 # Generative Adversarial Network
 This project comes from Kaggle Competitons called Generative-Dog-Images and Anime Face Dataset. 
+
+### There are different types of GANs, including:
+1- Generative Adversarial Network (GAN)<br />
+2- Deep Convolutional Generative Adversarial Network (DCGAN)<br />
+3- Conditional Generative Adversarial Network (cGAN)<br />
+4- Information Maximizing Generative Adversarial Network (InfoGAN)<br />
+5- Auxiliary Classifier Generative Adversarial Network (AC-GAN)<br />
+6- Stacked Generative Adversarial Network (StackGAN)<br />
+7- Context Encoders<br />
+8- Pix2Pix<br />
+9- Wasserstein Generative Adversarial Network (WGAN)<br />
+10- Cycle-Consistent Generative Adversarial Network (CycleGAN)<br />
+11- Progressive Growing Generative Adversarial Network (Progressive GAN)<br />
+12- Style-Based Generative Adversarial Network (StyleGAN)<br />
+13- Big Generative Adversarial Network (BigGAN)<br />
+
+
 Three types of GANs were implemented including DCGAN, WGAN-GP, and CGAN. The architectures of these are briefly introduced in the following.
 
 ## 1- Deep Convolutional Generative Adversarial Network architecture (DCGAN)
