@@ -1,4 +1,4 @@
-# Generative Adversarial Network
+## Generative Adversarial Network
 This project comes from Kaggle Competitons called Generative-Dog-Images and Anime Face Dataset. 
 
 ### There are different types of GANs, including:
