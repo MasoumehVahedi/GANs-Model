@@ -85,7 +85,7 @@ In this way, improving such as faster training, stable training, and better qual
 
 The Anim Face dataset includes  63,632 "high-quality" images which is used for generating anime faces using GAN model.
 
-**Goal**
+###Goal
 
 In this project, using definition and training a DCGAN, we are going to generate Anime fake faces as real images.
 The main objective here is that make a generator network to generate new images that look like as real.
